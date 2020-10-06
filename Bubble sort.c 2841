@@ -34,7 +34,7 @@ int main() {
   printf("Enter %d integers\n", n);
   for (i = 0; i < n; i++)
     scanf("%d", &a[i]);
-  bubble_sort(a, n);
+  bubble_sort(a, n);// function call
   printf("Printing the sorted array:\n");
   for (i = 0; i < n; i++)
      printf("%d\n", a[i]);
