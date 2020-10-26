@@ -1,3 +1,4 @@
 # sorting
 
-fawfsz
+Types of sorting in different programming lanaguages.
+
