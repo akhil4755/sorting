@@ -18,7 +18,7 @@
     if (left < n && arr[left] > arr[largest])
       largest = left;
   
-    if (right < n && arr[right] > arr[largest])
+    if (right <= n && arr[right] > arr[largest])
       largest = right;
   
     // Swap and continue heapifying if root is not largest
