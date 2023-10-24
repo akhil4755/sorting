@@ -17,7 +17,7 @@ def shellSort(array, n):
         interval //= 2
 
 
-data = [9, 8, 3, 7, 5, 6, 4, 1]
+data = [9, 8, 3, 7, 67, 6, 4, 1]
 size = len(data)
 shellSort(data, size)
 print('Sorted Array in Ascending Order:')
